@@ -33,9 +33,9 @@
 
 .section__description {
   font-weight: 500;
-  font-family: var(--header-font);
+  font-family:var(--header-font);
   color: var(--text-light);
-  text-align: center;
+  text-align:center;
 }
 
 .btn {
