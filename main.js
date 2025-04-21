@@ -1,4 +1,4 @@
-// Mobile Menu Toggle
+// Mobile Menu Toggle....
 const menuBtn = document.getElementById("menu-btn");
 const navLinks = document.getElementById("nav-links");
 const menuBtnIcon = menuBtn.querySelector("i");
@@ -10,20 +10,20 @@ menuBtn.addEventListener("click", () => {
   menuBtnIcon.setAttribute("class", isOpen ? "ri-close-line" : "ri-menu-line");
 });
 
-// Close Mobile Menu when clicking a link
+// Close Mobile Menu when clicking a link....
 navLinks.addEventListener("click", () => {
   navLinks.classList.remove("open");
   menuBtnIcon.setAttribute("class", "ri-menu-line");
 });
 
-// ScrollReveal Animations
+// ScrollReveal Animations....
 const scrollRevealOption = {
   distance: "50px",
   origin: "bottom",
   duration: 1000,
 };
 
-// Reveal header content
+// Reveal header content.....
 ScrollReveal().reveal(".header__container h1", {
   ...scrollRevealOption,
 });
@@ -36,7 +36,7 @@ ScrollReveal().reveal(".header__container form", {
   delay: 1000,
 });
 
-// Reveal features and other sections
+// Reveal features and other sections.....
 ScrollReveal().reveal(".feature__card", {
   duration: 1000,
   interval: 500,
@@ -54,16 +54,16 @@ ScrollReveal().reveal(".client__card", {
   interval: 500,
 });
 
-// Swiper initialization (for client reviews slider)
+// Swiper initialization (for client reviews slider)....
 const swiper = new Swiper(".swiper", {
   slidesPerView: "auto",
   spaceBetween: 20,
   pagination: {
     el: ".swiper-pagination",
   },
-  loop: true,  // Enable looping of slides for an infinite carousel
+  loop: true,  // Enable looping of slides for an infinite carousel.....
   autoplay: {
-    delay: 3000, // 3 seconds interval between slides
+    delay: 3000, // 3 seconds interval between slides.....
   },
 });
 
@@ -77,7 +77,7 @@ anchorLinks.forEach(link => {
     const targetElement = document.getElementById(targetId);
 
     window.scrollTo({
-      top: targetElement.offsetTop - 50, // Adjusted for any fixed navigation bar
+      top: targetElement.offsetTop - 50, // Adjusted for any fixed navigation bar.....
       behavior: "smooth"  ,
     });
   });
