@@ -78,7 +78,7 @@ anchorLinks.forEach(link => {
 
     window.scrollTo({
       top: targetElement.offsetTop - 50, // Adjusted for any fixed navigation bar
-      behavior: "smooth",
+      behavior: "smooth"  ,
     });
   });
 });
