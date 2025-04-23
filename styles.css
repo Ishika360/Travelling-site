@@ -155,7 +155,7 @@ nav {
 }
 
 .header__container h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 1.1rem;
   font-size: 4rem;
   font-weight: 600;
   color: var(--white);
