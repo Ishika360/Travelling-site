@@ -70,7 +70,7 @@ img {
 
 a {
   text-decoration: none;
-  transition: 0.6s;
+  transition: 0.7s;
 }
 
 ul {
@@ -79,7 +79,7 @@ ul {
 
 html,
 body {
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
 }
 
 body {
