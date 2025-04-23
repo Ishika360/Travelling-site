@@ -13,4 +13,5 @@ Discover breathtaking destinations, hidden gems, and unforgettable experiences w
 a thrilling mountain trek, or a cultural city tour, we offer expert guides, travel tips, and curated itineraries to make your journey smooth,enjoyable and memorable.
 Explore the world with ease with our traveling site
 Enjoyy every moment of your life......
-Start your journey today!!! adventure awaits
+Start your journey today!!! Adventure awaits...
+Grab the offers fast.. 
