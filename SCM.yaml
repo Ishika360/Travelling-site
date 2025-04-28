@@ -1,0 +1,45 @@
+Project:
+  Name: Travelling Site 
+  technologies:
+    - HTML
+    - CSS
+    - JavaScript
+ structure:
+  src:
+    - index.html
+    - styles:
+       - style.css
+- scripts:
+        - app.js
+    - assets:
+        - images/
+        - icons/
+
+features:
+  - Responsive layout using CSS Flexbox and Grid
+  - Interactive navbar and image carousel with JavaScript
+  - Smooth scrolling effects
+  - Animated buttons and transitions
+  - Basic form validation for contact form
+
+scripts:
+  start: "Open index.html in browser"
+
+environment:
+  browser_support: "Latest Chrome, Firefox, Edge, Safari"
+
+description: >
+  This is a frontend project for a Travelling Website. It allows users to explore
+  beautiful travel destinations, view packages, and contact for bookings.
+  Developed using HTML for structure, CSS for styling, and JavaScript for
+  basic interactivity like menu toggle and simple animations.
+
+Colloborators:
+  -name : "Hoor"
+     id: "2410990352"
+  -name : "Ishika Sarhadi"
+     id: "2410990360"
+  -name :"Paras"
+     id: "2410991874"
+
+
