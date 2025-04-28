@@ -113,7 +113,7 @@ nav {
 }
 
 .nav__links {
-  position: absolute;
+  position:absolute;
   top: 65px;
   left: 0;
   width: 100%;
